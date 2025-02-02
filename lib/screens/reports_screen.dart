@@ -291,7 +291,7 @@ class _ReportsScreenState extends State<ReportsScreen> {
             Row(
               children: [
                 _buildMiniStat(
-                    Icons.work, "Work3", formatDuration(session.workDuration)),
+                    Icons.work, "Work4", formatDuration(session.workDuration)),
                 SizedBox(width: 16),
                 _buildMiniStat(Icons.coffee, "Break",
                     formatDuration(session.breakDuration)),
